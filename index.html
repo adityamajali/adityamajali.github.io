@@ -12,105 +12,87 @@
         <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
         <link rel="manifest" href="assets/icons/site.webmanifest">
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script src="assets/javascript/index.js"></script>
 
     </head>
     <body>
+      <div orientation="right" class="side__StyledContainer-sc-1duznzb-0 sidebar-email" wfd-id="157">
+        <div class="email__StyledLinkWrapper-sc-2epoq-0 juoHJq fade-enter-done" wfd-id="182">
+          <a href="mailto:adityamajali06@gmail.com" class="email__StyledEmailLink-sc-2epoq-1 email">adityamajali06@gmail.com</a>
+        </div>
+        <div class="outer">
+          <div class="inner"></div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Aditya Majali</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aditya-about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aditya-projects">Projects</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link " href="#">Work Experience</a>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-        <table class="layout">
-      </table>
+      <div class="jumbotron aditya-centerheader jumbotron-fluid " style="background-color:#09082d ">
+        <img src = "assets/images/profile_main.jpg" alt = "Profile picture" height = "200px" width = "200px" class = "myprofilepic" >
+        <h1 class="display-4 namea" color ="rgb(100, 255, 218)" >Hi, I am Aditya Majali!</h1>
+        <p class="lead me">I am a 2017 batch student at BITS Pilani Goa Campus.</p>
+        <hr class="my-4">
+      </div>
 
-      <table class="layout">
-        <tr>
-          <td><h1> Hi, I am Aditya Majali </h1></td>
-          <td>
-            <img id="profile_image" src="assets/images/profile_picture.jpg" alt="my profile picture" height="230px" width="200px">
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h2> Bio </h2>
-          </td>
-          <td>
-            <p> Hi! I am Aditya Majali, a third year student pursuing B.E. Mechanical and MSc. Physics at BITS Pilani K.K.Birla Goa Campus. I am  </p>
-            </td>
-        </tr>
-        <tr>
-          <td>
-            <h2> Skills </h2>
-          </td>
-          <td>
-            <ul>
-              <li> Programming for fun </li>
-              <li> Reading novels, books </li>
-              <li> Watching football </li>
-            </ul>
-          </td>
 
-        </tr>
-        <tr>
-          <td><h2>Hobbies</h2></td>
-          <td>
-            <ul>
+      <section id="aditya-about">
+        <h1>About me</h1>
+        <p>I am a 2017 batch student pursuing B.E. Mechanical and MSc. Physics at BITS Pilani K.K.Birla Goa Campus.   </p>
+      </section>
 
-              <li> Programming for fun </li>
-              <li> Reading novels, books </li>
-              <li> Watching football </li>
+      <section id="aditya-projects">
+                <div id="projectsCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#projectsCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#projectsCarousel" data-slide-to="1"></li>
+            <li data-target="#projectsCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active item1">
+              <h1> Project 1 </h1>
+            </div>
+            <div class="carousel-item item2">
+              <h1> Project 2 </h1>
+            </div>
+            <div class="carousel-item item3">
+              <h1> Project 3 </h1>
+          </div>
+          <a class="carousel-control-prev" href="#projectsCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#projectsCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </section>
+      <script src="js/vendor/jquery.js"></script>
 
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td><h2> Contact me </h2> </td>
-          <td>
-            <ul>
-              <li> <a href= > Facebook </a> </li>
-              <li> Instagram </li>
-              <li> <a href="https://www.linkedin.com/in/aditya-majali/"> Linkedin </a> </li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h2> Work Experience</h2>
-          </td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>
-            <h2> Education Details</h2>
-          </td>
-          <td>
 
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h2> Photos </h2>
-          </td>
-          <td>
-
-          </td>
-        </tr>
-      </table>
-
-<!--        <h1> Aditya Majali </h1>
-        <img src="assets/images/profile_main.jpg" alt="my profile picture" height="230px" width="200px"> -->
-<!--        <h2> Bio </h2> <hr>
-        <p> Hi! I am Aditya Majali, a third year student pursuing B.E. Mechanical and MSc. Physics at BITS Pilani K.K.Birla Goa Campus.</p>
-
-        <h2> Educational Details </h2> <hr>
-        <h2> Skills </h2> <hr>
-        <h2> Projects </h2> <hr>
-        <h2> Work Experience </h2> <hr>
-        <h2> Hobbies </h2> <hr>
-        <h2> Contact me </h2> <hr>
-        <ul>
-          <li> Facebook </li>
-          <li> Instagram </li>
-          <li> <a href="https://www.linkedin.com/in/namanbhalla/"> Linkedin </a> </li>
- -->
-          <script src="js/vendor/jquery.js"></script>
-
-        </body>
+    </body>
 </html>

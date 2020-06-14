@@ -6,3 +6,82 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+.aditya-centerheader{
+    text-align :center;
+    background-color: #09082d;
+    /*background-color: rgb(8, 1, 39);*/
+}
+.myprofilepic{
+    border-radius: 50%
+}
+.namea{
+  color: rgb(100, 255, 218)
+}
+.me{
+  color: rgb(67, 247, 172)
+}
+.carousel-item {
+ height: 500px;
+    text-align: center;
+}
+
+.item1 {
+  background-color:red;
+  height: 100px;
+}
+
+.item2 {
+  background-color:yellow;
+  height: 100px;
+}
+
+.item3 {
+  background-color:blue;
+  height: 100px;}
+
+.sidebar-email {
+    width: 40px;
+    position: fixed;
+    bottom: 270px;
+    left: auto;
+    right:5px;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+}
+.email{
+    right:10px;
+    color: rgb(2, 230, 89);
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+.juoHJq {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    line-height: 1.3;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+.outer {
+  width: 1px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  position: absolute;
+  width:100%;
+  height: 40%;
+  background: grey;
+  top: 30%;
+  box-shadow: 0px 0px 30px 20px grey;
+}
