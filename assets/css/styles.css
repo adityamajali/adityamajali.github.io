@@ -55,7 +55,7 @@ body{
 *, ::before, ::after {
     box-sizing: inherit;
 }
-.juoHJq {
+/*.juoHJq {
     display: flex;
     flex-direction: column;
     -webkit-box-align: center;
@@ -66,7 +66,7 @@ body{
     font-size: 20px;
     transform-origin: 0 0;
     transform: rotate(90deg);
-}
+}*/
 *, ::before, ::after {
     box-sizing: inherit;
 }
@@ -84,4 +84,54 @@ body{
   background: grey;
   top: 30%;
   box-shadow: 0px 0px 30px 20px grey;
+  /* line*/
+}
+.krfQUW {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+    line-height: 1.3;
+    font-family: Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+    font-size: 20px;
+}
+juoHJq {
+    display: flex;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+    position: relative;
+    line-height: 1.3;
+    font-family: Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+    font-size: 20px;
+}
+.juoHJq::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: rgb(168, 178, 209);
+}
+.jxlTta {
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+    padding: 10px;
+    color: rgb(3, 230, 124);
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: rgb(3, 230, 124);/*rgb(2, 230, 89);*/
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    cursor: pointer;
+    line-height: 1.3;
 }

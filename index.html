@@ -18,14 +18,18 @@
 
     </head>
     <body>
-      <div orientation="right" class="side__StyledContainer-sc-1duznzb-0 sidebar-email" wfd-id="157">
-        <div class="email__StyledLinkWrapper-sc-2epoq-0 juoHJq fade-enter-done" wfd-id="182">
-          <a href="mailto:adityamajali06@gmail.com" class="email__StyledEmailLink-sc-2epoq-1 email">adityamajali06@gmail.com</a>
+
+        <!--
+        <div orientation="right" class="side__StyledContainer-sc-1duznzb-0 sidebar-email float-xl-right" wfd-id="157">
+          <div class="email__StyledLinkWrapper-sc-2epoq-0 juoHJq fade-enter-done float-md-none float-sm-none" wfd-id="182">
+            <a href="mailto:adityamajali06@gmail.com" class="email__StyledEmailLink-sc-2epoq-1 email  float-md-none float-sm-none">adityamajali06@gmail.com</a>
+          </div>
+          <div class="outer">
+            <div class="inner"></div>
+          </div>
         </div>
-        <div class="outer">
-          <div class="inner"></div>
-        </div>
-      </div>
+        -->
+
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Aditya Majali</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +54,11 @@
           </ul>
         </div>
       </nav>
-
+        <div orientation="right" class="side__StyledContainer-sc-1duznzb-0 krfQUW float-sm-none float-md-none" wfd-id="184">
+          <div class="email__StyledLinkWrapper-sc-2epoq-0 juoHJq fade-enter-done" wfd-id="204">
+            <a href="mailto:adityamajali06@gmail.com" class="email__StyledEmailLink-sc-2epoq-1 jxlTta float-sm-none float-md-none">adityamajali06@gmail.com</a>
+          </div>
+        </div>
       <div class="jumbotron aditya-centerheader jumbotron-fluid " style="background-color:#09082d ">
         <img src = "assets/images/profile_main.jpg" alt = "Profile picture" height = "200px" width = "200px" class = "myprofilepic" >
         <h1 class="display-4 namea" color ="rgb(100, 255, 218)" >Hi, I am Aditya Majali!</h1>
@@ -64,33 +72,35 @@
         <p>I am a 2017 batch student pursuing B.E. Mechanical and MSc. Physics at BITS Pilani K.K.Birla Goa Campus.   </p>
       </section>
 
-      <section id="aditya-projects">
-                <div id="projectsCarousel" class="carousel slide" data-ride="carousel">
+      <section id="projects" wfd-id="1">
+        <div id="projectsCarousel" class="carousel slide" data-ride="carousel" wfd-id="2">
           <ol class="carousel-indicators">
-            <li data-target="#projectsCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#projectsCarousel" data-slide-to="1"></li>
-            <li data-target="#projectsCarousel" data-slide-to="2"></li>
+            <li data-target="#projectsCarousel" data-slide-to="0" class="" wfd-id="13"></li>
+            <li data-target="#projectsCarousel" data-slide-to="1" wfd-id="12" class=""></li>
+            <li data-target="#projectsCarousel" data-slide-to="2" wfd-id="11" class="active"></li>
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active item1">
+          <div class="carousel-inner" wfd-id="3">
+            <div class="carousel-item item1" wfd-id="10">
               <h1> Project 1 </h1>
             </div>
-            <div class="carousel-item item2">
+            <div class="carousel-item item2" wfd-id="9">
               <h1> Project 2 </h1>
             </div>
-            <div class="carousel-item item3">
+            <div class="carousel-item item3 active" wfd-id="8">
               <h1> Project 3 </h1>
+            </div>
+            <a class="carousel-control-prev" href="#projectsCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" wfd-id="7"></span>
+            <span class="sr-only" wfd-id="6">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#projectsCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true" wfd-id="5"></span>
+              <span class="sr-only" wfd-id="4">Next</span>
+            </a>
           </div>
-          <a class="carousel-control-prev" href="#projectsCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#projectsCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
-        </section>
+      </section>
+
       <script src="js/vendor/jquery.js"></script>
 
 
