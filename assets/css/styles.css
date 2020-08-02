@@ -2,9 +2,6 @@ body{
     background: rgb(8, 1, 39);
     font-family: Arial, Georgia, Times, 'Times New Roman',serif;
 }
-nav{
-  position:fixed;
-}
 .layout{
     color: #04ec9f;
     /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
