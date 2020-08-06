@@ -10,6 +10,7 @@ body{
 }
 .h1jumbotron{
   color:#64ffda;
+  font-family: Arial,Georgia, Times, 'Times New Roman',serif;
 }
 .lead{
   color:#43f7ac;
