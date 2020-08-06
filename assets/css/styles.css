@@ -13,6 +13,12 @@ body{
   color:#64ffda;
   font-family: Arial,Georgia, Times, 'Times New Roman',serif;
 }
+.aditya-centerheader{
+    text-align :center;
+    background-color: #09082d;
+    /*background-color: rgb(8, 1, 39);*/
+    margin-bottom : 0px;
+}
 .lead{
   color:#43f7ac;
 }
