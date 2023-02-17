@@ -1,0 +1,57 @@
+body{
+  background-color: #09082d;
+  font-family: Georgia,Arial, Times, 'Times New Roman',serif;
+}
+.jumbotron{
+  text-align :center;
+  background-color: #09082d;
+  /*background-color: rgb(8, 1, 39);*/
+  margin-bottom : 0%;
+  font-family: Arial,Georgia, Times, 'Times New Roman',serif;
+}
+.h1jumbotron{
+  color:#64ffda;
+  font-family: Arial,Georgia, Times, 'Times New Roman',serif;
+}
+.aditya-centerheader{
+    text-align :center;
+    background-color: #09082d;
+    /*background-color: rgb(8, 1, 39);*/
+    margin-bottom : 0px;
+}
+.lead{
+  color:#43f7ac;
+}
+.myprofilepic{
+  height : 200px;
+  width : 200px;
+  border-radius: 50%;
+}
+.horizontal{
+    border: 0;
+    height: 3px;
+    background: #ffc800;
+    background-image: linear-gradient(to right, #222233, #ffc800, #222233);
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#aditya-about{
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align :center;
+  font-family: Georgia,Arial, Times, 'Times New Roman',serif;
+  background-color : #09082d;
+  color: #a5a8a7;
+  }
+  #aditya-about h1{
+      font-family: Lucida;
+      font-size: 2.5rem;
+      color: #FFFFFF;
+      padding-bottom: 1.5%;
+      /*rgb(255, 255, 255)*/
+  }
+#aditya-about p{
+  padding: 1%;
+  margin-left: 20%;
+  margin-right:20%;
+}
