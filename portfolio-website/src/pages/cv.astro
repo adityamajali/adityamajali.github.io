@@ -1,0 +1,136 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title = "Resume">
+  <div class="mt-8">
+        <a class="btn btn-primary" href="/src/content/CV.pdf" target="_blank"> View/Download One page CV</a>
+  </div> 
+  <br>
+  <br>
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    A Robotics Masters student at RWTH Aachen University with previous research experience in the field of Robotics and Machine Learning. Fluent in 
+    Python and MATLAB programming. Worked with Neural Networks, MuJoCo simulation engine, SolidWorks and Simulink in the past. 
+    
+    <!--Engineer in Informatics Science with 6 years + of experience in software development. Dominion of various programming
+    languages, frameworks, CMS and graphics engines. Experience in WEB design and development. Work with Data Base handled
+    systems, as well as design, normalization and migration. Knowledge of work with graphic design tools for image
+    manipulation , User Interfaces design, Web sites, logos and other ones. -->
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+      <TimeLineElement
+      title="Master of Science - Robotic Systems Engineering"
+      subtitle="2022 to 2024 at RWTH Aachen University, Aachen, Germany"
+    />
+    <TimeLineElement
+      title="Bachelor of Engineering - Mechanical Engineering"
+      subtitle="2018 to 2022 at Birla Institute of Technology and Science, Pilani, India"
+    />
+    <TimeLineElement
+      title="Master of Science - Physics"
+      subtitle="2017 to 2022 at Birla Institute of Technology and Science, Pilani, India"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Student Researcher (Thesis)"
+      subtitle="From January 2022 to May 2022 at the University of Auckland, New Zealand"
+      point_1 = "Worked on simulating fully actuated robotic hands in the MuJoCo physics engine at the New Dexterity lab under the supervision of Dr. Minas Liarokapis."
+      point_2 = "Completed comparative study of the position of the grasped object after mapping the robotic hand movement in real life to the movement in the MuJoCo engine."
+    />
+    
+    <TimeLineElement
+      title="Student Researcher (Thesis)"
+      subtitle="From August 2021 to December 2021 at the National Institute of Technology Surathkal, India"
+      point_1 = "Worked on the Modelling and Simulation of Lower Limb Exoskeleton under the supervision of Dr. K R Guruprasad."
+      point_2 = "Utilized MATLAB, Simulink and Simscape to model the human upper body and integrated it with the lower body."
+    />
+    <TimeLineElement
+      title="Summer Intern"
+      subtitle="From May 2019 to July 2019 at Henkel Adhesives Technologies India Private Limited"
+      desc="Recommended measures to increase production and cut down on transportation costs. With my recommendations, approximately 20% increase in production could be obtained."
+      
+
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Publications</div>
+  </div>
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>Fault Identification and Remaining Useful Life Prediction of Bearings using Poincare Maps, Fast Fourier Transform and Convolutional
+      Neural Networks - Published in Mathematical Models in Engineering <a href ="https://doi.org/10.21595/mme.2022.22364" target = "_blank"><i><u>https://doi.org/10.21595/mme.2022.22364</u></i></a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>NVIDIA - Fundamentals Of Deep Learning.
+      <a href="https://courses.nvidia.com/certificates/e9dc75bfbcee45be843b45a8e7ea4d34/" target="_blank"> <i><u>(Certificate)</u></i></a>
+    </li>
+    <li>Coursera - Neural Networks and Deep Learning.
+      <a href="https://coursera.org/share/de4ea9ccbb48a3249ab4ad3eccdf8f79" target="_blank"> <i><u>(Certificate)</u></i></a>
+    </li>
+    <li>Coursera - Data Driven Astronomy
+      <a href="https://coursera.org/share/4e073c400bca443ddb78a6c9121d8b7f" target="_blank"> <i><u>(Certificate)</u></i></a>
+    </li>
+    <li>Coursera - Python for Everybody Specialization 
+      <a href="https://coursera.org/share/824b73757321d1f09d398406bf0fed78" target="_blank"> <i><u>(Certificate)</u></i></a>
+    </li>
+    <li>Coursera - Introduction to Advanced Vibrations
+      <a href="https://coursera.org/share/824b73757321d1f09d398406bf0fed78" target="_blank"> <i><u>(Certificate)</u></i></a>
+    </li>
+    <li>Coursera - Introduction to Basic Vibrations
+      <a href="https://coursera.org/share/15207bbd62117c3be1787a71cf10cf96" target="_blank"> <i><u>(Certificate)</u></i></a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li><b>Programming Languages:</b>
+    </li>
+    Python3(Numpy, Matplotlib, Pandas, Tensorflow), C++, MATLAB, HTML5
+    <li><b>Analysis and System Modelling:</b>
+    </li>
+    ANSYS (Mechanical), MuJoCo, Simulink, Simscape
+    <li><b>Design and Modelling:</b>
+    </li>
+    SolidWorks, AutoCAD, Autodesk Fusion 360
+    <li><b>Miscellaneous Software:</b>
+    </li>
+    LaTex, Microsoft Office, Adobe Premiere Pro
+
+  </ul>
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Awards and Academic Achievements</div>
+  </div>
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>Received funding of Rs. 50,000 from Director, BITS-Pilani, Goa Campus, to foster the development of Radio
+      Telescope. <a href ="https://drive.google.com/file/d/1ORHMEpvb74unibM9M2Xj1mG6Ujs2PMG4/view" target = "_blank"><i><u>(Award letter)</u></i></a>
+    </li>
+    <li>
+      Received Rs 20,000 funding from the Alumni Affairs division for the development of Radio Telescope.
+    </li>
+  </ul>
+</BaseLayout>
