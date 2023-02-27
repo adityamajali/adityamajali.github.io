@@ -2,9 +2,7 @@
 image: node:lts
 
 pages:
-  cache:
-    paths:
-      - node_modules/
+  
   script:
     # Specify the steps involved to build your app here
     - npm install
