@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\cv",
+    "\\src\\content",
+    "\\src\\content\\store",
+    "\\src\\pages",
+    "\\src\\pages\\blog",
+    "\\src\\pages\\store"
+  ],
+  "SelectedNode": "\\src\\components\\SideBar.astro",
+  "PreviewInSolutionExplorer": false
+}
