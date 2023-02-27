@@ -7,7 +7,7 @@ pages:
       - node_modules/
   script:
     # Specify the steps involved to build your app here
-    - npm install
+    - npm ci
     - npm run build
 
   artifacts:
