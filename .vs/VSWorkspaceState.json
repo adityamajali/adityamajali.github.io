@@ -1,9 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\gayuadu",
-    "\\new-website"
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\cv",
+    "\\src\\content",
+    "\\src\\content\\store",
+    "\\src\\pages",
+    "\\src\\pages\\blog",
+    "\\src\\pages\\store"
   ],
-  "SelectedNode": "\\new-website",
+  "SelectedNode": "\\src\\components\\SideBar.astro",
   "PreviewInSolutionExplorer": false
 }
