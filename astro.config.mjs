@@ -9,6 +9,6 @@ export default defineConfig({
   sitemap: true,
   site: 'https://adityamajali.gitlab.io/',
   outDir: 'public',
-  publicDir: './src/pages',
+  publicDir: 'static',
   integrations: [mdx(), sitemap(), tailwind(),] 
 });
