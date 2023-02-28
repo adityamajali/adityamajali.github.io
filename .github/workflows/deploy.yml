@@ -19,7 +19,8 @@ jobs:
     steps:
     - name: Check out your repository using git
       uses: actions/checkout@v3
-      
+    - name: Install npm
+      uses: npm ci 
     - name: Install, build, and upload your site
       uses: withastro/action@v0
 
