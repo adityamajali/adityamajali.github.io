@@ -8,7 +8,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   sitemap: true,
   site: 'https://adityamajali.github.io/',
-  outDir: 'public',
+  outDir: 'dist',
   publicDir: 'static',
   integrations: [mdx(), sitemap(), tailwind(),] 
 });
