@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   sitemap: true,
-  site: 'https://adityamajali.gitlab.io/',
+  site: 'https://adityamajali.github.io/',
   outDir: 'public',
   publicDir: 'static',
   integrations: [mdx(), sitemap(), tailwind(),] 
