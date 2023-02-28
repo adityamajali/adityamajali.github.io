@@ -22,8 +22,10 @@ jobs:
       
     - name: Install, build, and upload your site
       uses: withastro/action@v0
-      with: 
-        path: ./src
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: ./static
 
 
   deploy:
