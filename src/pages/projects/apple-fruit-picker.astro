@@ -2,33 +2,39 @@
 import TopNavbarlayout from "../../layouts/TopNavbarlayout.astro";
 import ImageCarousel from "../../components/ImageCarousel.astro";
 ---
-<TopNavbarlayout title = "Apple Fruit Picker Robot" >
+<!DOCTYPE html>
+<html data-theme="night">
+    <TopNavbarlayout title = "Apple Fruit Picker Robot">
+        <body data-theme="night">
+    <div class="mb-5 text-center">
+        <div class="text-3xl w-full font-bold items-between">Apple Fruit Picker Robot</div>
+    </div>
+    <div class="btn-md md:btn-lg">
+
+    </div>
+    <p data-theme="night" class="mb-10 text-justify items-left mx-10 px-10 py-1 text-lg md:text-xl" >
+        As part of the graduate-level Mechanisms and Robotics course, I led a team of 4 students to develop a project on Apple Fruit Picker robot. 
+        We used Solidworks for modelling the robot and utilized Blender for making animations for the project. Additionally we used MATLAB and Python to
+        compute the Forward and Inverse Kinematics and Dynamics of the robot. 
+        <br>
+        <ImageCarousel/>
+        <!--<img src= "/projects/Apple Fruit Picker/blender-isometric.jpg" class="object-cover object-center h-48 md:object-top my-10" >-->
     
-
-<div class="mb-5 text-center">
-    <div class="text-3xl w-full font-bold items-between">Apple Fruit Picker Robot</div>
-</div>
-<p class="mb-10 text-justify items-left mx-10 px-10 py-1 text-lg md:text-2xl" >
-    As part of the graduate-level Mechanisms and Robotics course, I led a team of 4 students to develop a project on Apple Fruit Picker robot. 
-    We used Solidworks for modelling the robot and utilized Blender for making animations for the project. Additionally we used MATLAB and Python to
-    compute the Forward and Inverse Kinematics and Dynamics of the robot. 
-    <br>
-    <ImageCarousel/>
-    <!--<img src= "/projects/Apple Fruit Picker/blender-isometric.jpg" class="object-cover object-center h-48 md:object-top my-10" >-->
-
-    <!--Engineer in Informatics Science with 6 years + of experience in software development. Dominion of various programming
-    languages, frameworks, CMS and graphics engines. Experience in WEB design and development. Work with Data Base handled
-    systems, as well as design, normalization and migration. Knowledge of work with graphic design tools for image
-    manipulation , User Interfaces design, Web sites, logos and other ones. -->
-    </p>
-    <p class="mb-4 text-justify italic items-left text-2xl mx-10 px-10 underline">
-        Thought process behind the project
-    </p>
-    <p class="mb-10 text-justify items-left text-lg md:text-2xl mx-10 px-10">
-    The increasing amounts of investments in the field of agriculture have generated the need to reduce the costs incurred due to the 
-    hiring of labor to work on the farmland. This need for labor is more frequent in plantations that grow fruit-bearing trees, 
-    especially during the harvest season as these generally spread across many acres. To facilitate the task of plucking ripe fruits at the right time, 
-    a robot can be used that can work round the clock. The robot will be responsible for picking the apples from the trees accurately and dropping 
-    them in the collecting carton or bag. 
-    </p>
+        <!--Engineer in Informatics Science with 6 years + of experience in software development. Dominion of various programming
+        languages, frameworks, CMS and graphics engines. Experience in WEB design and development. Work with Data Base handled
+        systems, as well as design, normalization and migration. Knowledge of work with graphic design tools for image
+        manipulation , User Interfaces design, Web sites, logos and other ones. -->
+        </p>
+        <p class="mb-4 text-justify italic items-left text-2xl mx-10 px-10 underline">
+            Thought process behind the project
+        </p>
+        <p class="mb-10 text-justify items-left text-lg md:text-xl mx-10 px-10">
+        The increasing amounts of investments in the field of agriculture have generated the need to reduce the costs incurred due to the 
+        hiring of labor to work on the farmland. This need for labor is more frequent in plantations that grow fruit-bearing trees, 
+        especially during the harvest season as these generally spread across many acres. To facilitate the task of plucking ripe fruits at the right time, 
+        a robot can be used that can work round the clock. The robot will be responsible for picking the apples from the trees accurately and dropping 
+        them in the collecting carton or bag. 
+        </p>
+    </body>    
 </TopNavbarlayout>
+</html>
